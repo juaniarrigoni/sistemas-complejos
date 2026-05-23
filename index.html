@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orden y Caos en Mar del Plata</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
+            background: #f5f5f5;
+            color: #333;
+        }
+        .container { max-width: 900px; margin: 0 auto; padding: 2rem 1rem; }
+        h1 { font-size: 28px; font-weight: 500; color: #222; margin: 0 0 0.5rem; text-align: center; }
+        .subtitle { text-align: center; color: #666; margin-bottom: 2rem; font-size: 16px; }
+        h2 { font-size: 20px; font-weight: 500; color: #222; margin: 2rem 0 1rem; }
+        h3 { font-size: 17px; font-weight: 500; color: #222; }
+        p, li { font-size: 16px; line-height: 1.7; color: #555; margin: 0 0 1rem; }
+        ul { margin-left: 1.5rem; }
+        li { margin: 0.75rem 0; }
+
+        .hero { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+        .img-card { position: relative; border-radius: 8px; overflow: hidden; background: #fff; border: 1px solid #ddd; }
+        .img-card img { width: 100%; display: block; }
+        .img-label { position: absolute; bottom: 0; left: 0; right: 0; padding: 1rem; background: linear-gradient(to top, rgba(0,0,0,0.6), transparent); color: white; font-weight: 500; font-size: 16px; }
+
+        .section { padding: 1.5rem; margin: 1.5rem 0; border-radius: 8px; background: #fff; border: 1px solid #ddd; }
+        .section h3 { margin: 0 0 1rem; }
+        .section ul { margin: 0; }
+
+        .comparison { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin: 2rem 0; }
+        .comp-box { padding: 1.25rem; border-radius: 8px; border: 1px solid #ddd; background: #fff; }
+        .comp-box h3 { margin: 0 0 0.75rem; font-size: 16px; }
+        .comp-box p { margin: 0.5rem 0; font-size: 15px; }
+
+        .highlight { padding: 1rem; margin: 1rem 0; border-radius: 6px; background: #f0f8ff; border-left: 3px solid #5DCAA5; font-size: 15px; }
+
+        @media (max-width: 700px) {
+            .hero, .comparison { grid-template-columns: 1fr; }
+            h1 { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Orden y Caos en Mar del Plata</h1>
+        <div class="subtitle">Lo que veo en el mar cuando miro sistemas complejos</div>
+
+        <div class="hero">
+            <div class="img-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23b3d9ff' width='400' height='150'/%3E%3Crect fill='%23e6f0ff' y='150' width='400' height='150'/%3E%3Cpath fill='%2366b3ff' d='M0,160 Q100,155 200,160 T400,160 L400,170 Q200,165 0,170 Z' opacity='0.6'/%3E%3Cpath fill='%2366b3ff' d='M0,180 Q100,175 200,180 T400,180 L400,190 Q200,185 0,190 Z' opacity='0.4'/%3E%3C/svg%3E" alt="Playa ordenada">
+                <div class="img-label">Playa Glass<br/>Orden: Series prolijas</div>
+            </div>
+
+            <div class="img-card">
+                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'%3E%3Crect fill='%23a6a6a6' width='400' height='150'/%3E%3Crect fill='%23cccccc' y='150' width='400' height='150'/%3E%3Cpath fill='%23666' d='M50,180 L80,150 L110,190 L140,160 L170,200 L200,155 L230,195 L260,165 L290,205 L320,170 L350,200 L380,160' stroke='%23444' stroke-width='2'/%3E%3Cpath fill='%23999' opacity='0.6' d='M0,200 Q50,180 100,210 T200,190 T300,220 T400,200 L400,300 L0,300 Z'/%3E%3C/svg%3E" alt="Escollera">
+                <div class="img-label">Escollera<br/>Caos: Turbulencia revoltosa</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>Lo que veo en la playa ordenada (Patagones)</h3>
+            <p>
+                Sistemicamente el movimiento de las olas se condensa en oleadas particulares lo que hace que 
+                para el surfista se formen "series" prolijas y mas lindas de surfear y de ver.
+            </p>
+            <p>
+                Acá el sistema encontró un punto de equilibrio. No es orden total (eso sería agua estática). 
+                Es complejidad viviente — caos que se auto-organiza en patrones predecibles. El surfista 
+                puede anticipar, leer las series, fluir.
+            </p>
+            <p>
+                La sociedad en este espacio es tranquila también. Los locales están cómodos. 
+                El ambiente es estable, previsible. Todo funciona.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Lo que veo en la escollera (donde está más alborotado)</h3>
+            <p>
+                Las rocas rompen los patrones. El mar no sabe "qué hacer" — hay turbulencia impredecible, 
+                energía dispersa, sin series claras. El agua choca, se fragmenta, pierde estructura.
+            </p>
+            <p>
+                Ahí está donde la gente está "medios loca". Los locales más alborotados. La energía es distinta — 
+                caótica, menos predecible. El sistema está en otro estado.
+            </p>
+            <div class="highlight">
+                <strong>Observación:</strong> La inercia sistémica hace que todo sea más fácil hacerlo como se viene haciendo. 
+                En la playa glass, es fácil porque todo fluyó hacia el orden. En la escollera, es fácil quedarse en el caos 
+                porque el sistema se alineó con eso. En ambos casos, el "camino de menor resistencia" refuerza lo que ya existe.
+            </div>
+        </div>
+
+        <div class="comparison">
+            <div class="comp-box">
+                <h3>Playa Glass = Sociedad tranquila</h3>
+                <p><strong>Estado del sistema:</strong> Autorregulación. El feedback compensador funciona.</p>
+                <p><strong>Energía:</strong> Eficiente. Las olas se organizan, no luchan.</p>
+                <p><strong>Estructura:</strong> Previsible. El surfista sabe qué viene.</p>
+                <p><strong>Inercia:</strong> El sistema refuerza su propio orden. Es más fácil fluir que luchar.</p>
+                <p><strong>Costo de cambiar:</strong> Alto. Para romper ese equilibrio hace falta una perturbación externa.</p>
+            </div>
+
+            <div class="comp-box">
+                <h3>Escollera = Caos sistémico</h3>
+                <p><strong>Estado del sistema:</strong> Turbulencia. Feedback reforzador amplificando el caos.</p>
+                <p><strong>Energía:</strong> Dispersa, ineficiente. Todo choca contra todo.</p>
+                <p><strong>Estructura:</strong> Impredecible. Nadie sabe qué viene.</p>
+                <p><strong>Inercia:</strong> El sistema refuerza su propio caos. Es más fácil seguir chocando que reorganizar.</p>
+                <p><strong>Costo de cambiar:</strong> Altísimo. Para encontrar orden acá hace falta atravesar la complejidad.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h3>¿Dónde estamos nosotros? (Sociedad, facultad, nuestras ideas)</h3>
+            <p>
+                Lo que Franco estaba enseñando esta semana es que <strong>todos los sistemas están en algún punto del ciclo:</strong>
+            </p>
+            <ul>
+                <li><strong>Caos inicial:</strong> Ideas sueltas, sin estructura. Parece que todo vale.</li>
+                <li><strong>Autoorganización:</strong> Los patrones comienzan a emerger. Pequeños órdenes dentro del caos.</li>
+                <li><strong>Autorregulación:</strong> El sistema se estabiliza. Feedback compensador. Punto de equilibrio.</li>
+                <li><strong>Lock-in (lo peligroso):</strong> El orden se vuelve rígido. Es más fácil mantener lo que existe que cuestionarlo. Acá es donde la sociedad "enferma" se alinea con nosotros.</li>
+                <li><strong>Colapso y reorganización:</strong> O el sistema explota (caos nuevamente) o se reorganiza en un orden nuevo.</li>
+            </ul>
+            <p>
+                <strong>El punto clave:</strong> En cualquier momento, el sistema tiende a alinearse con lo que ya existe. 
+                Todo es más fácil hacerlo como se viene haciendo. Eso es inercia sistémica.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>La reflexión que emerge observando esto</h3>
+            <p>
+                No es sano estar adaptado a una sociedad enferma. Y sin embargo, <strong>la inercia sistémica es real.</strong> 
+                Los sistemas se alinean con su contexto. En la playa glass, todo refuerza el orden. En la escollera, todo refuerza el caos.
+            </p>
+            <p>
+                De ahí creo que se abren preguntas como: ¿En qué punto del ciclo estamos nosotros como facultad? 
+                ¿Dónde está el caos que no vemos? ¿Dónde está el lock-in que nos mantiene haciendo las cosas "como siempre"?
+            </p>
+            <div class="highlight">
+                <strong>Lo que necesitamos:</strong> Un proceso de dos fases. Primero, identificar que en nuestras ideas 
+                encerradas en la cabeza existe caos — las cosas heredadas que nunca cuestionamos, las estructuras que damos por sentadas. 
+                Después, hacer el camino hacia el equilibrio. No hay atajo. Se trata de atravesar la complejidad, no evitarla.
+            </div>
+            <p>
+                Green software es lo mismo. El código tiene caos interior. Deuda técnica. Suposiciones heredadas. 
+                Patrones que "funcionan" pero cuestan un montón de energía. La única forma de transformar eso es 
+                reconocerlo y hacer el movimiento necesario.
+            </p>
+        </div>
+
+        <p style="text-align: center; color: #999; font-size: 13px; margin-top: 3rem;">
+            Observación hecha en Mar del Plata, mayo 2026
+        </p>
+    </div>
+</body>
+</html>
